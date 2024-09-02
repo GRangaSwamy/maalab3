@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+.main{
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./bullpng.jpeg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+}
+.wrapper{
+    position: absolute;
+    width: 90%;
+    
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.lr{
+    width: 45%;
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./divimg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    margin-top: 22px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+.content{
+    width: 34%;
+    height: 300px;
+    margin-right: 40px;
+    position: relative;
+    margin-top: 10%;
+    border: 3px soid white;
+    border-radius: 15px;
+    
+}
+.lr h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 12px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 26px;
+    color: rgb(246, 246, 249);
+}
+.signin{
+    position: absolute;
+  top: 43%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 18%;
+  width: 120px;
+  text-align: center;
+  border: 2px solid black;
+  padding: 15px 15px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.register{
+    position: absolute;
+    top: 58%;
+    margin-left: 18%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 120px;
+    padding: 15px 15px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.signin a{
+    text-decoration: none;
+    font-size: 18pt;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.register a{
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 18pt;
+}
+.content h2{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: cursive;
+  color: #5F6F65;
+}
+.content p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #C5705D;
+    font-size: 16pt;
+}
